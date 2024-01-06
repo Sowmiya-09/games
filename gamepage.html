@@ -105,7 +105,7 @@
         <div class="col-2"><p id="timer">Time: 1:00</p></div>
     </div>
     <div id="first" onclick="func()">
-        <img src="img.jpg" style="height: 60%; width: 60%;">
+        <img src="img.jpg" style="height: 40%; width: 68%;">
     </div>
 
     <div id="scorePopup">
@@ -171,7 +171,7 @@
         function startGame() {
             movebox();
             timerId = setInterval(timer, 1000);
-            setInterval(movebox, 800);
+            setInterval(movebox, 500);
         }
 
         window.onload = startGame;
